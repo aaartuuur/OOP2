@@ -1,6 +1,7 @@
 package num1;
 
 public class Dogovor {
+
     private Prodavec prodavec;
     private Pokupatel pokupatel;
     private Interface inter;
