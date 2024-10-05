@@ -1,21 +1,15 @@
 package num1;
 
-public class Car extends Nedvisimost{
+public class Car implements Interface{
+    String name;
+    int cost;
     private int horsepower;
     public Car(String nam, int c, int horse) {
-        super(nam, c);
+        name = nam;
+        cost = c;
         this.horsepower = horse;
     }
-
-    public int getHorsepower() {
-        return horsepower;
-    }
-
-    public void setHorsepower(int horsepower) {
-        this.horsepower = horsepower;
-    }
-    @Override
     public void print(){
-        System.out.println(super.getName() + " " + super.getCost() + " " + horsepower);
+        System.out.println(name + " " + cost + " " + horsepower);
     }
 }
