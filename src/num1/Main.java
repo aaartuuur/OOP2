@@ -10,7 +10,7 @@ public class Main {
         Flat flat = new Flat("Квартира", 1000);
         Car car = new Car("Машина", 1000000, 1000);
         Dogovor dogovor = new Dogovor(prod, pok, car);
-        dogovor.print();
+        dogovor.print(12345);
 
         List<Interface> list = new ArrayList<>();
         list.add(flat);

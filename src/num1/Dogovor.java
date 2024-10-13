@@ -10,23 +10,16 @@ public class Dogovor {
         this.pokupatel = pokup;
         this.inter = in;
     }
-
-    public Prodavec getProdavec() {
-        return prodavec;
-    }
-
-    public void setProdavec(Prodavec prodavec) {
-        this.prodavec = prodavec;
-    }
-
-    public Pokupatel getPokupatel() {
-        return pokupatel;
-    }
-
     public void print(){
         System.out.println(pokupatel.getSurname() + " " + pokupatel.getName());
         System.out.println(prodavec.getSurname() + " " + prodavec.getName());
         inter.print();
 
+    }
+    public void print(int contractNumber){
+        System.out.println(pokupatel.getSurname() + " " + pokupatel.getName());
+        System.out.println(prodavec.getSurname() + " " + prodavec.getName());
+        inter.print();
+        System.out.println("Номер договора: " + contractNumber);
     }
 }
