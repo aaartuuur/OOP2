@@ -1,8 +1,8 @@
-package ru.vsu.cs.shkoda;
+package ru.vsu.cs.shkoda.task5;
 
 import org.junit.jupiter.api.Test;
-import ru.vsu.cs.shkoda.exceptions.CheckedException;
-import ru.vsu.cs.shkoda.services.CheckedExceptionService;
+import ru.vsu.cs.shkoda.task5.exceptions.CheckedException;
+import ru.vsu.cs.shkoda.task5.services.services.CheckedExceptionService;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;

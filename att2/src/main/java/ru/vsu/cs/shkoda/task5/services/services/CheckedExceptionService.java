@@ -1,6 +1,6 @@
-package ru.vsu.cs.shkoda.services;
+package ru.vsu.cs.shkoda.task5.services.services;
 
-import ru.vsu.cs.shkoda.exceptions.CheckedException;
+import ru.vsu.cs.shkoda.task5.exceptions.CheckedException;
 
 public class CheckedExceptionService {
     public void throwCheckedException() throws CheckedException {

@@ -1,8 +1,8 @@
-package ru.vsu.cs.shkoda;
+package ru.vsu.cs.shkoda.task5;
 
 import org.junit.jupiter.api.Test;
-import ru.vsu.cs.shkoda.exceptions.UncheckedException;
-import ru.vsu.cs.shkoda.services.UncheckedExceptionService;
+import ru.vsu.cs.shkoda.task5.exceptions.UncheckedException;
+import ru.vsu.cs.shkoda.task5.services.services.UncheckedExceptionService;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
